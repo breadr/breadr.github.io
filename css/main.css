@@ -285,6 +285,7 @@ position: absolute;
 
 	.line-row .hr {
 		background-color: #2C3E50;
+    color: #2C3E50;
 		height: 5px;
 		margin: 0 auto;
 		width: 33%;
@@ -521,4 +522,8 @@ position: absolute;
   border-width: 4px;
   background-color: #ecf0f1;
   color: #2c3e50;
+}
+#bcol {
+  color: #2C3E50;
+  background-color: #2C3E50;
 }
