@@ -188,7 +188,7 @@ background:url("../img/bread.jpg");
 }
 #tpos {
   position: absolute;
-  top: 30%;
+  top: 20%;
   bottom: 30%;
   left: 0;
   right: 0;
@@ -284,7 +284,7 @@ position: absolute;
 	}
 
 	.line-row .hr {
-		background-color: #e4e6e5;
+		background-color: #2C3E50;
 		height: 5px;
 		margin: 0 auto;
 		width: 33%;
