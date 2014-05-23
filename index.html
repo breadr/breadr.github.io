@@ -44,7 +44,7 @@
     <h2>Coming <em>out of the oven</em> Soon.</h2>
     <div class="downp">
       <nav class="down-effect">
-      <a href="#About"><span data-hover="DOWN">MOVE</span></a>
+      <a id="doenb"href="#About"><span data-hover="DOWN">MOVE</span></a>
     </nav>
   </div>
   </div>
@@ -462,8 +462,12 @@ mixpanel.init("7b46719c1277a91c9d23771cd51b158d");</script>
 
 <!-- end Mixpanel -->
 <script type="text/javascript" charset="utf-8">
-mixpanel.track_links("#navy a", "click nav link", {
+mixpanel.track_links("#navy a", "clicked nav link", {
     });
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      mixpanel.track_links("#doenb a", "Move Down", {
+          });
     </script>
 
   </body>
