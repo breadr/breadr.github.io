@@ -42,9 +42,9 @@
     <div class="headt"id="tpos">
     <h1>Welcome to Breadr</h1>
     <h2>Coming <em>out of the oven</em> Soon.</h2>
-    <div class="downp">
+    <div class="downp" id="doenb">
       <nav class="down-effect">
-      <a id="doenb"href="#About"><span data-hover="DOWN">MOVE</span></a>
+      <a href="#About"><span data-hover="DOWN">MOVE</span></a>
     </nav>
   </div>
   </div>
@@ -466,7 +466,7 @@ mixpanel.track_links("#navy a", "clicked nav link", {
     });
     </script>
     <script type="text/javascript" charset="utf-8">
-      mixpanel.track_links("#doenb a", "Move Down", {
+      mixpanel.track("#doenb a", "Move Down click", {
           });
     </script>
 
