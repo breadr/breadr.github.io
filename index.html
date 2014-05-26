@@ -17,9 +17,9 @@
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Karla:400,400i/Open+Sans:400,700">
   <link href="css/main2.css" rel="stylesheet">
-<link href="css/main3.css" rel="stylesheet">
-   <link rel="shortcut icon" href="favicon.ico" >
-
+  <link href="css/main3.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" >
+  <link rel="stylesheet" href="css/jquery.skippr.css">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -88,6 +88,14 @@
 			</div><!-- /row -->
 		</div><!-- /container -->
 </div>
+<div class="slid">
+        <div id="theTarget" class='skippr'>
+                <div class="slide1"></div>
+                <div class="slide2"></div>
+                <div class="slide3"></div>
+                <div class="slide4"></div>
+        </div>
+  </div>
   <div class="opage container ">
     <div class='text-center coblued'>
       <h1>Our Team</h1>
@@ -218,6 +226,7 @@
 </div>
 
 </div>
+
 <!-- Used From Startup Framework demo -->
 <section class="content-13 subscribe-form bg-turquoise">
         <div class="container">
@@ -474,6 +483,15 @@ mixpanel.track_links("#navy a", "clicked nav link", {
       mixpanel.track("#doenb a", "Move Down click", {
           });
     </script>
+<script src="js/jquery.skippr.js"></script>
+<script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+
+            $("#theTarget").skippr();
+
+        });
+</script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
   </body>
 </html>
