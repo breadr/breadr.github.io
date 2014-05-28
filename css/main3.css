@@ -255,3 +255,12 @@ background-image: url(http://iamapioneer.com/plugins/skippr/img/boardwalk.jpg);
 position: absolute;
 left: 5056px;
 }
+.cen {
+  position: center;
+  align: center;
+  text-align: center;
+
+}
+.cen .img-responsive {
+    margin: 0 auto;
+}
