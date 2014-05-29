@@ -228,6 +228,33 @@ background:url("../img/sun.jpg");
   -o-background-size: cover;
   background-size: cover;
   }
+.slid {
+width: 100%;
+height: 80%;
+min-height: 500px;
+position: relative;
+}
+.slide1 {
+background-image: url(http://iamapioneer.com/plugins/skippr/img/test5.jpg);
+position: absolute;
+left: 1264px;"
+}
+.slide2 {
+background-image: url(http://iamapioneer.com/plugins/skippr/img/desert.jpg);
+position: absolute;
+left: 2528px;
+background-position: 50% 100%;
+}
+.slide3 {
+background-image: url(http://iamapioneer.com/plugins/skippr/img/test3.jpg);
+position: absolute;
+left: 3792px;
+  }
+.slide4 {
+background-image: url(http://iamapioneer.com/plugins/skippr/img/boardwalk.jpg);
+position: absolute;
+left: 5056px;
+}
 .cen {
   position: center;
   align: center;
@@ -236,9 +263,4 @@ background:url("../img/sun.jpg");
 }
 .cen .img-responsive {
     margin: 0 auto;
-<<<<<<< HEAD
-}.container {
-    margin-top: 20px;
-=======
->>>>>>> parent of 39cce5f... Spelling and Rearranging
 }
