@@ -279,3 +279,47 @@ background:url("../img/sun.jpg");
   text-align: center;
   font-weight: bold;
 }
+/* 404 Page */
+.p404 {
+  width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+}
+#f404 {
+  position: absolute;
+  bottom: 0;
+}
+.h404 {
+  font-size: 75px;
+  color: #2c3e50;
+  text-decoration:none;
+}
+.h404:hover {
+  font-size: 75px;
+  color: #000;
+  text-decoration:none;
+}
+.h404:active {
+  font-size: 75px;
+  color: #2c3e50;
+  text-decoration:none;
+}
+.l404:hover {
+  font-size: 40px;
+  color: #2c3e50;
+  text-decoration:none;
+}
+.l404:active {
+  font-size: 40px;
+  color: #2c3e50;
+  text-decoration:none;
+}
+.l404 a{
+  font-size: 40px;
+text-decoration:none;
+color: #2c3e50;
+}
+.l404 a:hover{
+text-decoration:none;
+color: #2c3e50;
+}
