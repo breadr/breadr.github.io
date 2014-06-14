@@ -1,0 +1,41 @@
+{
+  "name": "north",
+  "version": "0.3.2",
+  "homepage": "https://github.com/Snugug/north",
+  "authors": [
+    "Sam Richard <snugug@gmail.com>"
+  ],
+  "description": "North is a set of standards and best practices for developing modern web based properties",
+  "main": "README.md",
+  "keywords": [
+    "north",
+    "web",
+    "standards",
+    "design",
+    "development"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "lib",
+    "north.gemspec",
+    "*.gem",
+    ".sass-cache",
+    ".gitignore",
+    ".DS_Store"
+  ],
+  "_release": "0.3.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.3.2",
+    "commit": "4eac09ba0dbb1d3ce6ab04faf1487d13d18a0473"
+  },
+  "_source": "git://github.com/Snugug/north.git",
+  "_target": "~0.3.2",
+  "_originalSource": "north",
+  "_direct": true
+}
